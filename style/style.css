@@ -5,13 +5,14 @@
 .menu-item{
     color:#3b3b3b;
     border-bottom: 2px solid transparent;
+    border-radius: 5px;
 }
 
 .menu-item:hover{
     border-bottom: 2px solid #f0ad4e;
     /* animation: myAnimation 2s  right ease-out; */
     animation-name: myAnimation;
-    animation-duration: 0.5s;
+    animation-duration: 0.9s;
 }
 
 .active {
@@ -21,9 +22,11 @@
 
 @keyframes myAnimation {
     from {
-        box-shadow: 4px 4px 10px #f0ad4e;
+        border-color: white;
+        width: 40%;
     }
     to{
         border-color: #f0ad4e;
+        width: 100%;
     }
 }
