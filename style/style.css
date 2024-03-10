@@ -1,3 +1,24 @@
 .bg-color{
-    background: #f0f0f0;
+    background: #ffffff;
+}
+
+.menu-item{
+    color:#3b3b3b;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-item:hover{
+    border-bottom: 2px solid #f0ad4e;
+    /* animation: myAnimation 2s  right ease-out; */
+    animation-name: myAnimation;
+    animation-duration: 0.5s;
+}
+
+@keyframes myAnimation {
+    from {
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
