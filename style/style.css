@@ -14,11 +14,16 @@
     animation-duration: 0.5s;
 }
 
+.active {
+    border: 2px solid #f0ad4e;
+    border-radius: 10px;
+}
+
 @keyframes myAnimation {
     from {
-        width: 0;
+        box-shadow: 4px 4px 10px #f0ad4e;
     }
     to{
-        width: 100%;
+        border-color: #f0ad4e;
     }
 }
