@@ -17,6 +17,7 @@
 
 .active {
     border-bottom: 2px solid #f0ad4e;
+    border-left: 2px solid #f0ad4e;
     border-radius: 5px;
 }
 
@@ -33,4 +34,11 @@
         border-color: #f0ad4e;
         width: 100%;
     }
+}
+
+
+input{
+    outline: #f0ad4e;
+    border: 2px solid #f0ad4e;
+
 }
