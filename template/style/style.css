@@ -16,14 +16,18 @@
 }
 
 .active {
-    border: 2px solid #f0ad4e;
-    border-radius: 10px;
+    border-bottom: 2px solid #f0ad4e;
+    border-radius: 5px;
+}
+
+.text-color:hover{
+    color: #f0ad4e;
 }
 
 @keyframes myAnimation {
     from {
         border-color: white;
-        width: 40%;
+        width: 80%;
     }
     to{
         border-color: #f0ad4e;
