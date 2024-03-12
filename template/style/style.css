@@ -9,7 +9,7 @@
 }
 
 .menu-item:hover{
-    border-bottom: 2px solid #f0ad4e;
+    color: #f0ad4e;
     /* animation: myAnimation 2s  right ease-out; */
     animation-name: myAnimation;
     animation-duration: 0.9s;
@@ -27,12 +27,10 @@
 
 @keyframes myAnimation {
     from {
-        border-color: white;
-        width: 80%;
+        opacity: 0%;
     }
     to{
-        border-color: #f0ad4e;
-        width: 100%;
+        opacity: 100%;
     }
 }
 

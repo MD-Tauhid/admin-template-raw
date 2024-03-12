@@ -54,3 +54,7 @@ new Chart(document.getElementById("graph-chart").getContext('2d'), {
         
     }
 });
+
+
+// table 
+// ip, dashboard, demo, (10) headers
